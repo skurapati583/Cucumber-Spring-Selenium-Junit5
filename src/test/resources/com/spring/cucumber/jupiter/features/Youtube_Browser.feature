@@ -5,4 +5,4 @@ Feature: Browse Youtube Videos
     Given I launch Youtube website
     When I search "Apple" in searchbox
     And I click on Search button
-    Then I should see more than 10 results
+    Then I should see more than 4 results

@@ -40,7 +40,6 @@
         </dependencies>
     </dependencyManagement>
 
-
     <dependencies>
 
         <!--Cucumber Dependencies-->
@@ -52,6 +51,11 @@
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-junit-platform-engine</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-spring</artifactId>
         </dependency>
 
         <!--Junit Dependencies-->
