@@ -22,6 +22,4 @@ public class WebDriverLibrary {
         return new ChromeDriver(chromeOptions);
     }
 
-
-
 }

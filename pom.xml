@@ -141,6 +141,8 @@
                         </goals>
                         <configuration>
                             <test>com.spring.cucumber.jupiter.BaseCucumberTests</test>
+                            <threadCount>5</threadCount>
+                            <forkCount>5</forkCount>
                         </configuration>
                     </execution>
                 </executions>
